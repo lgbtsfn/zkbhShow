@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="1920,1080" sizebox="4,4,4,4" caption="0,0,0,40" mininfo="600,400">
+  <Font name="微软雅黑" size="14" bold="false" italic="false" />
+  <Font name="微软雅黑" size="14" bold="true" italic="false" />
+
+	<VerticalLayout bkimage="bk.jpg" bkcolor="#FF070707">
+		<HorizontalLayout>
+			<HorizontalLayout  width="972">
+				<Control width="191"/>
+				<VerticalLayout>
+					<Control  height="290"/>
+					<SelfCtl name="selfCtl1"/>
+					<Control  height="238"/>
+				</VerticalLayout>
+			</HorizontalLayout>
+			<Control  width="95"/>
+			<HorizontalLayout>
+				<VerticalLayout>
+					<HorizontalLayout height="385">
+						<Control  width="9"/>
+						<VerticalLayout>
+							<Control  height="284"/>
+							<Button name="closeBtn" height="71" tooltip="关闭程序"  align="center" normalimage="btn0.png" hotimage="btn1.png" pushedimage="btn2.png"/>
+							<Control  height="30"/>
+						</VerticalLayout>
+						<Control width="390"/>
+					</HorizontalLayout>
+					<SelfCtl name="selfCtl2" />
+					<Control  height="220"/>
+				</VerticalLayout>
+				<Control  width="181"/>
+			</HorizontalLayout>
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>
